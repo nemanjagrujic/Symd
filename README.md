@@ -45,7 +45,7 @@ The next one is setting the TBB switch compile time flag before including the sy
 
 With gcc:
 ```
-g++ test_symd.cpp test_symd_register.cpp test_stencil_borders.cpp -std=c++17 -ltbb -march=ivybridge -O3 -o test_symd
+g++ test_symd.cpp test_symd_register.cpp test_stencil_borders.cpp -std=c++17 -ltbb -march=native -O3 -o test_symd
 ```
 
 With clang:
